@@ -2,6 +2,8 @@ import Navigationbar from "./components/Navbar";
 // import Navbar from "./components/Navbar";
 import'./App.css'
 import Banner from "./components/Banner";
+import { Skills } from "./components/Skills";
+
 
 function App() {
   
@@ -10,6 +12,7 @@ function App() {
  
 <Navigationbar/>
 <Banner/>
+<Skills/>
  
   </div>
   );
