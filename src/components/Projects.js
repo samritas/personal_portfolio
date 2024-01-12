@@ -15,31 +15,31 @@ export const Projects = () => {
   const projects = [
     {
       title: "Netflix",
-      description: "replicate the actual netflix ",
+      description: "Replicate the actual Netflix using React and Node js",
       imgUrl: projImg1,
       siteUrl:"https://samritas.github.io/Netflix_clone/",
     },
     {
       title: "Snak Game",
-      description: "using pure html css and js",
+      description: "Snake game Using pure HTML ,CSS and JS",
       imgUrl: projImg2,
       siteUrl:"https://snakeegameee.netlify.app",
     },
     {
       title: "Amazon",
-      description: "replicate the actual amazon",
+      description: "Replicate the actual Amazon using React ,Node js and  Firebase data base",
       imgUrl: projImg3,
       siteUrl:"https://samritas.github.io/Amazon_clone/",
     },
     {
       title: "Apple home page",
-      description: "using react class pase componnet",
+      description: "Replicate apple's home page using react class based commponnet",
       imgUrl: projImg4,
       siteUrl:"https://samritas.github.io/apple_home_page/",
     },
     {
       title: "QR code generator",
-      description: "it gennerat QR code for any text and link",
+      description: "It generat QR code for any given link it build using pure HTML ,CSS and JS",
       imgUrl: projImg5,
       siteUrl:" https://qrcodegeneratorrrr.netlify.app",
     },

@@ -6,7 +6,7 @@ import nav1 from './assets/img/nav-icon1.svg'
 import nav2 from './assets/img/nav-icon2.svg'
 import nav3 from './assets/img/nav-icon3.svg'
 import navimg from './assets/img/navimg.png'
-
+import { HashLink } from 'react-router-hash-link';
 
 
 function Navigationbar() {
@@ -56,8 +56,11 @@ function Navigationbar() {
                 <a href='#'><img src={nav2}/></a>
                 <a href='#'><img src={nav3}/></a>
             </div>
-
-            <button className='vvd' ><span>lets conntact</span></button>
+            <Nav.Link href='#connect'>
+            {/* <HashLink to='#connect'> */}
+                <button className="vvd"><span>Let’s Connect</span></button>
+              {/* </HashLink> */}
+              </Nav.Link>
         </span>
       </Navbar.Collapse>
     </Container>
