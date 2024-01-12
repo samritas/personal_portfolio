@@ -1,0 +1,16 @@
+
+  
+  input[type="submit"] {
+    background-color: #9370db; /* Light purple */
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #7b68ee; /* Darker purple on hover */
+  }
+  
+  

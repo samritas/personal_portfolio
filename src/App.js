@@ -4,10 +4,12 @@ import'./App.css'
 import Banner from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
+import React from "react";
+import { Footer } from "./components/Footer";
+import { ContactUs } from "./components/ ContactUs";
 
 
 function App() {
-  
   return( 
     <div className="app">
  
@@ -15,6 +17,9 @@ function App() {
 <Banner/>
 <Skills/>
 <Projects/>
+<ContactUs/>
+<Footer/>
+
  
   </div>
   );

@@ -1,9 +1,8 @@
 import { Col } from "react-bootstrap";
-import { Link } from 'react-router-dom';
 
 export const ProjectCard = ({ title, description, imgUrl, siteUrl }) => {
   const handleClick = () => {
-    window.location.href = siteUrl;
+    window.open(siteUrl, "_blank");
   };
 
   return (

@@ -29,13 +29,13 @@ export const Projects = () => {
       title: "Amazon",
       description: "replicate the actual amazon",
       imgUrl: projImg3,
-      siteUrl:"/",
+      siteUrl:"https://samritas.github.io/Amazon_clone/",
     },
     {
       title: "Apple home page",
       description: "using react class pase componnet",
       imgUrl: projImg4,
-      siteUrl:"/",
+      siteUrl:"https://samritas.github.io/apple_home_page/",
     },
     {
       title: "QR code generator",

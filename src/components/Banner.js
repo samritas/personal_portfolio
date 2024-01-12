@@ -9,7 +9,7 @@ function Banner() {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "Full Stack Web Developer"  ];
   const period = 2000;
   const containerStyle={
     borderRadius: '50%',
@@ -60,7 +60,7 @@ function Banner() {
            
             <div >
               <span className="tagline">Welcome to my Portfolio</span>
-              <h1>{`Hi! I'm samrawit`} <br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+              <h1>{`Hi! I'm samrawit`} <br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Web Developer" ]'><span className="wrap">{text}</span></span></h1>
                 <p>Hey there! 👋 I'm samrawit, a budding full-stack web developer passionate about crafting dynamic and user-friendly web applications. Proficient in HTML, CSS, JavaScript, react , Node.js, and Express. Eager to contribute innovative solutions, learn from experienced developers, and stay on top of industry trends. Let's connect and explore the world of web development together! 🚀
 
 </p>
