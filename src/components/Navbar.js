@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import nav1 from './assets/img/nav-icon1.svg'
 import nav2 from './assets/img/nav-icon2.svg'
 import nav3 from './assets/img/nav-icon3.svg'
+import navimg from './assets/img/navimg.png'
 
 
 
@@ -36,8 +37,8 @@ function Navigationbar() {
     <Navbar expand="lg"  className={scrolled ? "scrolled" : ""}>
     <Container>
       <Navbar.Brand href="#home">
-        Samrawit
-        {/* <img src=''/> */}
+        
+        <img src={navimg}/>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" >
         <span className='navbar-toggle-icon'></span>
