@@ -43,12 +43,12 @@ export const Projects = () => {
       imgUrl: projImg5,
       siteUrl:" https://qrcodegeneratorrrr.netlify.app",
     },
-    {
-      title: "Evangadi Forem",
-      description: "",
-      imgUrl: projImg6,
-      siteUrl:"/",
-    },
+    // {
+    //   title: "Evangadi Forem",
+    //   description: "",
+    //   imgUrl: projImg6,
+    //   siteUrl:"/",
+    // },
   ];
 
   return (

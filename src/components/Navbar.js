@@ -52,7 +52,9 @@ function Navigationbar() {
         </Nav>
         <span className='navbar-text'>
             <div className='social-icon'>
-                <a href='#'><img src={nav1}/></a>
+            <a href="https://www.linkedin.com/in/samrawit-tesfahun-bb330a292" target="_blank" rel="noopener noreferrer">
+         <img src={nav1} alt="LinkedIn" />
+                </a>
                 <a href='#'><img src={nav2}/></a>
                 <a href='#'><img src={nav3}/></a>
             </div>
